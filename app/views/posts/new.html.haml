@@ -1,0 +1,17 @@
+.newpost-contaioner
+  .container
+    .user-profile
+      しのぴ
+    .newpost
+      .newpost__title
+        ロンドン
+      .newpost__photo
+        = image_tag "gorilla.jpeg"
+      .newpost__country
+        イギリス
+      .newpost__text
+        ロンドンブリッジ行ったよ！きれい
+      .newpost__notepoint
+        橋渡った側は治安が良くない
+    .posting
+      = link_to '投稿する', '/posts', method: :post, class: 'btn'

@@ -1,0 +1,38 @@
+.newpost-contaioner {
+  background: pink;
+  width: 100%;
+  height: auto;
+  .container {
+    width: 500px;
+    height: 700px;
+    background: blue;
+    .user-profile {
+      width: 300px;
+      height: 100px;
+      background: green;
+    }
+    .newpost {
+      &__title {
+
+      }
+      &__photo {
+
+      }
+      &__country {
+
+      }
+      &__text {
+
+      }
+      &__notepoint {
+
+      }
+    }
+    .posting {
+      
+      .btn {
+
+      }
+    }
+  }
+}
