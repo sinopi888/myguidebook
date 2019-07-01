@@ -1,6 +1,6 @@
 class Post < ApplicationRecord
   belongs_to :user, optional: true
-  # has_many_attached :images
+  has_many_attached :images
   has_many :likes, dependent: :destroy
 
   # belongs_to :guidebook, optional: true
