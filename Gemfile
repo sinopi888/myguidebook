@@ -91,4 +91,3 @@ gem 'payjp'
 gem "jquery-rails"
 gem 'ancestry'
 gem 'gretel'
-gem 'acts_as_list'
