@@ -89,3 +89,5 @@ gem 'dotenv-rails'
 gem "jquery-rails"
 gem 'ancestry'
 gem 'gretel'
+gem 'carrierwave'
+gem 'fog-aws'
