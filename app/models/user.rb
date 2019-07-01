@@ -6,5 +6,5 @@ class User < ApplicationRecord
 
   # has_many :likes
   has_many :posts
-  has_one_attached :avatar
+  # has_one_attached :avatar
 end
