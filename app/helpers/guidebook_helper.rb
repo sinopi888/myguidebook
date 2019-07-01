@@ -1,0 +1,2 @@
+module GuidebookHelper
+end

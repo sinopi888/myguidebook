@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
-  root 'users#index'
-  resources :posts
+  root 'posts#index'
+  resources :posts, only: [:index, :new, :create, :show, :edit, :update, :destroy] do
+    resources :likes, only: [:create, :destroy]
+  end
+  resources :users, only: [:show, :edit, :update]
+  resources :guidebook, only: [:index]
   devise_for :users, controllers: {:registrations => 'users/registrations'}
   # devise_scope :user do
   #   get 'users/sign_up', to: 'users/registrations#new'
